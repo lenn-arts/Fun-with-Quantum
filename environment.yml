@@ -1,7 +1,7 @@
 name: Qiskitenv
 dependencies:
 - python=3
-- pip=18
+- pip
 - matplotlib
 - notebook
 - ipywidgets
@@ -9,6 +9,5 @@ dependencies:
 - networkx=2.3
 - pip:
   - qiskit==0.19.6
-  - qiskit_aqua==0.4.0
   - wget
   - tabulate
